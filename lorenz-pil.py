@@ -4,7 +4,6 @@
 # Basado en http://code.activestate.com/recipes/577814-lorenz-attractor/
 
 import random
-from random import randint
 from PIL import Image
 imgx = 1024
 imgy = 768

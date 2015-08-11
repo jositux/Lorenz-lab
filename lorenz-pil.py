@@ -43,7 +43,7 @@ for i in range(maxIt):
     xi = int((imgx - 1) * (x - xa) / (xb - xa))
     yi = int((imgy - 1) * (y - ya) / (yb - ya))
     if xi >=0 and xi < imgx and yi >= 0 and yi < imgy:
-        imagen.putpixel((xi, yi), (randint(50,255), randint(0,255), randint(0,255)))
+        imagen.putpixel((xi, yi), (0, 0, 0))
     
 
 nombre = "Lorenz_%i.gif" % size;

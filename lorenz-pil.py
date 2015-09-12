@@ -9,6 +9,13 @@ imgx = 1024
 imgy = 768
 imagen = Image.new("RGBA", (imgx, imgy))
 
+def fib(n):
+ a,b = 1,1
+ for i in range(n-1):
+  a,b = b,a+b
+ return a
+print fib(5)
+
 maxIt = 100000 # Números de pixels a dibujar
 size = 30
 xa = -size
